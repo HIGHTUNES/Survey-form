@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    color: #fff;
+     font-family: 'Roboto', sans-serif;
+     
+}
+.container{
+    background-image: url("background\ image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    width: 100%;
+    margin: 3.5em auto 0 0 8cm;
+    
+}
+
+.form-content{
+    width: 620px;
+    background-color:black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#title{
+    font: 2em;
+    margin-left: 20px;
+}
+#description{
+    margin-left: 20px;
+}
+
+header{
+    background-color: coral;
+    width: 49.5%;
+    border-radius: 10px;
+}
+
+.form-group{
+    margin: 0 auto 0.25em auto;
+    padding: 0.25em;
+}
+p{
+    margin: 10px 0px;
+}
+
+.form-check{
+    margin: 2% -2% 1% 0;
+}
+
+#question{
+    padding-left: 24px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        margin: 10% 0;
+    }
+    form{
+        width: 268px;
+    }
+    header{
+        width: 268px;
+    }
+    #title{
+        font-size: 1.35em;
+        padding: 5px;
+    }
+    #description{
+        padding-bottom: 5%;
+    }
+    
+}
+
+
+.form-check p{
+    margin: 15px 0 0 -21px;
+}
+
+#name, #email, #number, #dropdown, #dropdown1{
+    display: block;
+    width: 98%;
+    height: 25px;
+    padding: 5px 10px;
+    color: #000;
+    background-color: beige;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 18px;
+
+}
+#dropdown{
+    height: 35px;
+    width: 102%;
+}
+
+#dropdown1{
+    height: 35px;
+    width: 102%;  
+}
+
+#comment{
+    padding-top: 10px;
+}
+    
+#main-head{
+    text-align: center;
+    margin: 0 auto ;
+}
+
+#content-body{
+    margin: 0 auto;
+    font-size: 18px;
+    color: #fff;
+}
